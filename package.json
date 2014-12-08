@@ -1,0 +1,17 @@
+{
+  "name": "retro-io",
+  "version": "1.0.0",
+  "description": "retro game engine with nodejs and socket.io",
+  "private": true,
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:tzsiga/retro-io.git"
+  },
+  "dependencies": {
+    "socket.io": "~1.2.1",
+    "express": "~4.10.4",
+    "body-parser": "~1.10.0",
+    "requirejs": "~2.1.15"
+  }
+}
