@@ -1,8 +1,25 @@
 {
   "name": "retro-io",
   "version": "1.0.0",
+  "description": "retro game engine with node.js and socket.io",
   "private": true,
   "dependencies": {
-    "jquery": "~2.1.1"
-  }
+    "jquery": "~2.1.1",
+    "jquery-timer": "*"
+  },
+  "authors": [
+    "tzsiga <tzsiga@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

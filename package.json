@@ -1,7 +1,7 @@
 {
   "name": "retro-io",
   "version": "1.0.0",
-  "description": "retro game engine with nodejs and socket.io",
+  "description": "retro game engine with node.js and socket.io",
   "private": true,
   "main": "app.js",
   "repository": {
