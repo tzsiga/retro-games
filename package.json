@@ -9,9 +9,21 @@
     "url": "git@bitbucket.org:tzsiga/retro-io.git"
   },
   "dependencies": {
-    "socket.io": "~1.2.1",
     "express": "~4.10.4",
     "body-parser": "~1.10.0",
-    "requirejs": "~2.1.15"
+    "browserify-shim": "~3.8.1"
+  },
+
+  "browserify-shim": {
+    "./public/js/vendor/jquery.js": {
+      "exports": "$"
+    },
+    "./public/js/vendor/jquery.timer.js": {
+      "exports": "$.timer",
+      "depends": [ "./public/js/vendor/jquery.js:$" ]
+    }
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
   }
 }
